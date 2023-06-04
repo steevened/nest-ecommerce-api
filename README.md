@@ -4,8 +4,25 @@
 
 # TESLO API COURSE FROM UDEMY
 
-1. To run the project, you need to have docker and docker-compose installed on your machine.
+1. Clone the repo
+
+2. Install the dependencies
 
 ```
+   npm install
+```
+
+2. Rename the file `.env.example` to `.env` and add your variables
+
+3. To run the project, you need to have docker and docker-compose installed on your machine.
+
+```
+
 sudo docker-compose up -d
+```
+
+5. Run the project
+
+```
+npm run start:dev
 ```
